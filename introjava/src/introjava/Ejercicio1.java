@@ -27,7 +27,7 @@ public class Ejercicio1 {
         //
         System.out.println("La suma de " + numero1 + " + " + numero2 + " es: " + (numero1+numero2));
         
-        
+        System.out.println("Hiciste bien el ejercicio gil");
         
         
     }
