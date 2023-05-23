@@ -33,19 +33,40 @@ public class declaracion_6_variables {
         
         System.out.println("(Santi)");//escribir o escribir sin saltar
         Scanner sc = new Scanner(System.in);//leer
-        System.out.println("Entiendo un poco :) ");
+        System.out.println("Decime tu nombre: ");
         String nombre = sc.nextLine();
         System.out.println("Decime tu nombre: " + nombre);
         
+ // Implementar un programa que le pida dos números enteros a usuario y determine si ambos o
+ // alguno de ellos es mayor a 25.
+ 
+//   //declaro variables enteras
+ int num1;
+ int num2;
+  
+  //declaro el scanner
+  Scanner scan1 = new Scanner(System.in);
+ 
+  //pido los datos al usuario
+  System.out.println("ingrese un numero");
+  num1 = scan1.nextInt();
+  System.out.println("ingrese otro numero");
+  num2 = scan1.nextInt();
+  
+  // if == al SI
+  if (num1 >25 && num2>25) {
+  System.out.println("ambos son mayores a 25");
+  } else if (num1 >25 || num2>25) { // es igual al sino si
+   System.out.println("uno de los dos numeros es mayor a 25");
+  } else  { // es igual al sino
+   System.out.println("ninguno de los dos es mayor a 25");
+  }
+ 
+ }
+    
+    
         
-       /* System.out.println("luchi"); // escribir o escribir sin saltar
-        Scanner sc = new Scanner(System.in); // leer
-        System.out.println("decime tu nombre :) "); // sout control tab para que me aparezca
-        String nombre = sc.nextLine();
-        System.out.println("nombre:" + nombre); */
-
     }
  
+  
     
-    
-}
