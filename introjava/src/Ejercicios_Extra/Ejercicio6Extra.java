@@ -51,7 +51,12 @@ public class Ejercicio6Extra {
         
         
         System.out.println("Se registraron "+contadorBajo+" personas con altura menor a 1.60mts");
-        System.out.println("Su promedio de estatura fue de "+(sumaBajo/contadorBajo)+ " cm");
+        
+        if (contadorBajo>0) {
+           System.out.println("Su promedio de estatura fue de "+(sumaBajo/contadorBajo)+ " cm");   
+        } else {
+            System.out.println("No hay suficientes datos para promediar los menores a 160cm");
+        }
         System.out.println("Se registraron en total "+contadorTotal+" alturas, promediando: "+(sumaTotal/contadorTotal)+" cm");
         
     }
