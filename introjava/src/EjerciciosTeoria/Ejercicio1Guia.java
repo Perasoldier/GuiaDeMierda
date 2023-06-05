@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Ejercicios;
+package EjerciciosTeoria;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author peras
  */
-public class declaracion_6_variables {
+public class Ejercicio1Guia {
     public static void main(String[] args) {
         int numero1;
         short numero2;
